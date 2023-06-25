@@ -77,7 +77,6 @@ if(isset($_SESSION['autentikasi'])){
 
     $(document).ready(function () {
         $('button').on('click', function () {
-            let buathtml = '';
             var input = {
                 UID: $('#userid').val(),
                 Pass: $('#pw').val(),
